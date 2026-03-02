@@ -1,0 +1,148 @@
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue]{hyperref}
+\usepackage{xcolor}
+
+\pagestyle{empty}
+
+% Custom section command
+\newcommand{\cvsection}[1]{%
+  \vspace{1.2em}%
+  \noindent{\large\scshape #1}%
+  \vspace{0.3em}%
+  \hrule height 0.5pt%
+  \vspace{0.6em}%
+}
+
+% Custom entry command: date on left, content on right
+\newcommand{\cventry}[2]{%
+  \noindent\begin{tabular}[t]{@{}p{3cm}@{\hspace{0.8cm}}p{12.5cm}@{}}
+  #1 & #2
+  \end{tabular}\par\vspace{0.4em}%
+}
+
+\begin{document}
+
+% Header
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+{\LARGE\bfseries Andrew Strasberg}
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+\raggedleft
+Washington University in St. Louis \\
+Department of Political Science \\
+\href{mailto:a.e.strasberg@wustl.edu}{a.e.strasberg@wustl.edu}
+\end{minipage}
+
+\begin{center}
+\vspace{0.5em}
+{\large\bfseries Curriculum Vitae}
+\end{center}
+
+% ---- Education ----
+\cvsection{Education}
+
+\cventry{2023 -- 2028}{\textbf{Washington University in St. Louis} \newline
+Ph.D., Political Science \newline
+\textit{Subfields: American Politics and Political Methodology}}
+
+\cventry{2025}{\textbf{Washington University in St. Louis} \newline
+M.A., Political Science}
+
+\cventry{2023}{\textbf{George Mason University} \newline
+B.S., Public Administration \newline
+\textit{Magna Cum Laude} \newline
+\textit{Recipient of John W. Godbold Award for Most Outstanding Senior in Public Administration}}
+
+% ---- Research Interests ----
+\cvsection{Research Interests}
+
+\begin{itemize}[nosep, leftmargin=1.5em]
+\item \textbf{American Politics:} Political Communication, Populism, Congress, Elections
+\item \textbf{Political Methodology:} Text-as-Data / Natural Language Processing, Causal Inference, Computational Social Science
+\end{itemize}
+
+% ---- Working Papers ----
+\cvsection{Working Papers}
+
+\noindent The Electoral Cycle of Populist Rhetoric in Congress \\
+\hspace*{1em}\textit{Winner, Pi Sigma Alpha Best Undergraduate Paper Award, 2023 MPSA Conference}
+
+% ---- Conference Presentations ----
+\cvsection{Conference Presentations}
+
+\begin{itemize}[label={}, nosep, leftmargin=0em]
+\item Midwest Political Science Association Annual Conference: 2022, 2023, 2024
+\item American Political Science Association Annual Conference: 2023, 2024
+\end{itemize}
+
+% ---- Teaching Experience ----
+\cvsection{Teaching Experience}
+
+\cventry{Summer 2025}{\textbf{Lead Instructor, Social Data Analysis in R} \newline
+\textit{Washington University Summer Training Experience in Political Science (WUSTEPS)}}
+
+\cventry{Fall 2024, \newline Fall 2025}{\textbf{Assistant in Instruction, Introduction to American Politics} \newline
+\textit{Washington University in St. Louis}}
+
+\cventry{Spring 2025}{\textbf{Assistant in Instruction, The Legislative Process} \newline
+\textit{Washington University in St. Louis}}
+
+\cventry{Spring 2026}{\textbf{Assistant in Instruction, American Politics Over Space and Time} \newline
+\textit{Washington University in St. Louis}}
+
+% ---- Relevant Experience ----
+\cvsection{Relevant Experience}
+
+\cventry{Mar 2021 -- \newline May 2023}{\textbf{Research Assistant to Dr. Jennifer Nicoll Victor} \newline
+\textit{George Mason University}}
+
+\cventry{May -- Aug \newline 2021}{\textbf{Research Intern} \newline
+\textit{OpenSecrets}}
+
+% ---- Skills & Software ----
+\cvsection{Skills \& Software}
+
+\begin{itemize}[nosep, leftmargin=1.5em]
+\item \textbf{Statistics:} Causal Inference, Machine Learning, Text-as-Data, Bayesian Inference
+\item \textbf{Programming:} R
+\item \textbf{Survey Design:} Qualtrics
+\item \textbf{Other:} \LaTeX, R Markdown, Quarto, Zotero, Git/GitHub
+\end{itemize}
+
+% ---- Service ----
+\cvsection{Service}
+
+\noindent Graduate Coordinator and R Programming Instructor, Washington University PhD Pipeline Program
+
+% ---- Languages ----
+\cvsection{Languages}
+
+\begin{itemize}[nosep, leftmargin=1.5em]
+\item \textbf{English:} Native
+\item \textbf{Spanish:} Working proficiency
+\end{itemize}
+
+% ---- Grants & Awards ----
+\cvsection{Grants \& Awards}
+
+\begin{itemize}[leftmargin=1.5em, itemsep=0.3em]
+\item Pi Sigma Alpha Best Undergraduate Paper Presented in a Poster Format at the 2023 MPSA Conference --- April 2024 (\$250)
+\item John W. Godbold Award for Most Outstanding Senior in Public Administration --- May 2023 (\$500)
+\item George Mason University OSCAR Conference Travel Grant --- April 2023 (\$600)
+\item Schar School of Policy and Government Conference Travel Grant --- April 2023 (\$800)
+\item Best Poster, Schar School of Policy and Government Undergraduate Research Fair --- April 2023
+\item George Mason University OSCAR Conference Travel Grant --- April 2022 (\$600)
+\item Schar School of Policy and Government Conference Travel Grant --- April 2022 (\$800)
+\end{itemize}
+
+% ---- References ----
+\cvsection{References}
+
+\noindent Available upon request.
+
+\end{document}
